@@ -17,6 +17,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace NameGenerator.Tests.Unit
@@ -43,6 +44,23 @@ namespace NameGenerator.Tests.Unit
             string nameTwo = Name.Create(5);
 
             Assert.AreNotEqual(nameOne, nameTwo);
+        }
+
+        [TestMethod]
+        public void GenerateNamesOfDifferentLengths()
+        {
+            string nameOne = Name.Create(5);
+            string nameTwo = Name.Create(6);
+            string nameThree = Name.Create(7);
+            string nameFour = Name.Create(8);
+            string nameFive = Name.Create(9); 
+
+            Assert.AreNotEqual(string.Empty, nameOne);
+            Assert.AreNotEqual(string.Empty, nameTwo);
+            Assert.AreNotEqual(string.Empty, nameThree);
+            Assert.AreNotEqual(string.Empty, nameFour);
+            Assert.AreNotEqual(string.Empty, nameFive);
+
         }
     }
 }
