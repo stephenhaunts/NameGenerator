@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameGenerator", "NameGenerator\NameGenerator.csproj", "{581175B9-9DB2-462B-9F30-2089235BECA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameGenerator.Tests.Unit", "NameGenerator.Tests.Unit\NameGenerator.Tests.Unit.csproj", "{D4B91A85-7C6F-4073-AABE-917D0C05E175}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{581175B9-9DB2-462B-9F30-2089235BECA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581175B9-9DB2-462B-9F30-2089235BECA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581175B9-9DB2-462B-9F30-2089235BECA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581175B9-9DB2-462B-9F30-2089235BECA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B91A85-7C6F-4073-AABE-917D0C05E175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B91A85-7C6F-4073-AABE-917D0C05E175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B91A85-7C6F-4073-AABE-917D0C05E175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B91A85-7C6F-4073-AABE-917D0C05E175}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
