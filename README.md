@@ -11,13 +11,13 @@ The number you pass into Create is a complexity indicator. The higher the number
 
 Here are some example name that have been generated. Obviously they are not like common names like Dave, Geoff or Keith, but they are readable :-)
 
-*pumufo
+* pumufo
 
-*fifeli
+* fifeli
 
-*xucowokae
+* xucowokae
 
-*luwusaelae
+* luwusaelae
 
-*faeduxegymo
+* faeduxegymo
 
